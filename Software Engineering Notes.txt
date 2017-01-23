@@ -1,0 +1,59 @@
+Software Engineering Notes
+
+Chapter 4 Requirement Elicitation
+Why would you write a software?
+We are trying to meet a certain need.
+
+How do I figure what are the needs, what are the needs that a program needs to satisfy?
+Where do these needs or requirements resides?
+What are the requirements I need to figure that?
+Where should I look?
+Who knows the requirements?
+The person or the entity that has a need knows what solution would satisfy the need
+
+A requirement is a feature that the system mus thave or a constrain that it must satisfy to be accepted by the client
+
+Requirements Engineering: aims at defining the requirements of the system under construction
+    Two types of Activities one must follow:
+    Requirements Elicitation
+        Deficiton of the system in terms understood by the customer (Requirement Specificaiton)
+    Analysis
+        Defintion of the system in term sunderstood by the developer (Anaylsis Model). We create models of the requirements Elicitation.
+The documentation you create has to be understood by the developer.
+My requirement needs to play a dual purpose: Purpose of precisely communicating with the client as to what the system does. Purpose of precisley
+communicating with the developers so they can design the software.
+
+Overview of Requirement Elicitation
+Focuses on describing the purpose of the systemDuring requirements Elicitation the developers gain an understand of how the system should work.
+The description of the services and constraints of the system are referred to as the requirements.
+The descriptions of the services and constraints of the system are referred to as the requirements.
+The requirements are defiend in the software requirement specificaiton.
+
+The system will allow guests to registers as a business entity.  (Milani suggests: we should write a business analysis as to why guest should 
+register as a business entitty.)
+    
+Types of Requirements  (notes it does not describe how it will be implemented but just the requirement)
+    Functional Requirement
+        Describe the interactions between the system and its environemnt independent from implementation.
+        The watch system must display the time based on its location.
+    Nonfunctional requirement
+        User visil aspects of the system not directly related to functional behavior
+            The response time must be less than 1 second
+            The accuracy must be within 1 second
+    Constraints
+        Imposed by client or the environemnt in whcih the system will operated.
+            THe implementation language must be COBOL
+            Must interface to the dispatcher system written in 1956
+
+Requirement Validation
+    Critical step oin the devvelopment process
+        usually after requirements engineering or requirement anaylsis. Also at delivery.
+    Requirement Validaiton Criteria
+        COrrectness
+            the requirement represenets the client's view
+        Completness
+            All possible scenario through the system are described, including exceptional behavior by the user or the system
+        Consistency:
+            there are functional or nonfunctional requirements that contradict each other
+        Clarity:
+            There are no ambiguities in the requirements. The requirement should be understood by everybody.
