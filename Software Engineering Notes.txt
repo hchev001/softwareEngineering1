@@ -57,3 +57,6 @@ Requirement Validation
             there are functional or nonfunctional requirements that contradict each other
         Clarity:
             There are no ambiguities in the requirements. The requirement should be understood by everybody.
+
+After comming up with the users, come up the ussage of each user in the system.
+
